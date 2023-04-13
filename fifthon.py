@@ -45,7 +45,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await fifthon(JoinChannelRequest("@fifthon"))
+        await fifthon(JoinChannelRequest("@uui9u"))
     except BaseException:
         pass
 
@@ -65,7 +65,7 @@ async def _(event):
 
 
 async def spam_function(event, sandy, cat, sleeptimem, sleeptimet, DelaySpam=False):
-    hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    hmm = base64.b64decode("Y2ZGT2tSeTVDdXRtWkRWaQ==")
     counter = int(cat[0])
     if len(cat) == 2:
         spam_message = str(cat[1])
@@ -142,7 +142,7 @@ ownerhson_id = 5088821183
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري فراغ @ssssvs')
+        order = await event.reply('اهلا مطوري وهم @ssssvs')
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
